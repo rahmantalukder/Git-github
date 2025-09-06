@@ -1,0 +1,67 @@
+/* common style start  */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #171717;
+}
+/* common style end  */
+/* font Donwload file link srart */
+@font-face{
+    src: url(../fonts/Sofia/Sofia-Regular.otf);
+    font-family: Sofia-Regular;
+}
+@font-face{
+    src: url(../fonts/Sofia/Sofia-Regular.otf);
+    font-family: Sofia-Regular;
+}
+@font-face{
+    src: url(../fonts/DMSans/DMSans-Regular.ttf);
+    font-family: Sofia-Regular;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+/* font Donwload file link end */
+/*nav Section  start */
+.container{
+    height: 30px;
+    width: 1050px;
+    display: flex;
+    
+    border: 1px solid red;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400px;
+    text-transform: none;
+    height: 50px;
+    width: 200px;
+    font-family: DMSans-Regular;
+    display: flex;
+    border: 1px solid red;
+}
+.navbar-brand a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400px;
+    padding: 10px  20px 30px;
+    text-transform: none;
+    font-family: DMSans-Regular;
+    
+}
+.navbar{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    border: 1px solid red;
+}
+.navbar ul{
+    
+}
+.navbar ul li{
+        
+}
+.navbar ul li a{
+    font-family: "Story Script", sans-serif;
+}
+/*nav Section  end */
